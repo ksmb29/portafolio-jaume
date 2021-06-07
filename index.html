@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Jaume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <img
+          src="./images/LOGO.png"
+          alt="Logo del portafolio"
+          width="70"
+          height="20"
+        />
+
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#main" class="active">Hola</a>
+            </li>
+            <li>
+              <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="button">CURRÍCULUM</button>
+      </header>
+
+      <section class="hero" id="main">
+        <div class="hero-image">
+          <img
+            src="./images/jaume.png"
+            width="100%"
+            height="100%"
+            alt="My Photo"
+          />
+        </div>
+        <div class="hero-description">
+          <h1>
+            !Hola a todos!
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+          <div class="hero-contact">
+            <a class="icon-button" href="tel:3163828612"
+              ><img src="./images/icons/icon-phone.svg" alt="contact phone"
+            /></a>
+            <a class="icon-button" href="email:ksmb295@gmail.com"
+              ><img
+                src="./images/icons/icon-important_mail.svg"
+                alt="contact email"
+            /></a>
+            <a class="icon-button" href="#"
+              ><img
+                src="./images/icons/icon-instagram.svg"
+                alt="contact social networks"
+            /></a>
+            <a class="icon-button" href="#"
+              ><img
+                src="./images/icons/icon-twitter_squared.svg"
+                alt="contact social networks"
+            /></a>
+          </div>
+        </div>
+        <a href="" class="button">DESCARGAR CURRÍCULUM</a>
+      </section>
+
+      <section class="comments">
+        <p>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles
+        </p>
+        <span><p>Aquí hay algunos que me gustaría compartir.</p></span>
+        <img src="./images/icons/icons-down.svg" alt="" width="80px" />
+      </section>
+
+      <section class="witness" id="projects">
+        <div class="witness-img">
+          <img src="./images/test1.png" alt="" width="328px" height="197px" />
+        </div>
+        <div class="witness-info">
+          <a href="" class="link">leonidasesteban.com</a>
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a href="#" class="button dos">VER CÓDIGO</a>
+          <a href="#" class="button">VER PROYECTO</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <img src="./images/user.png" alt="" width="64" />
+        <p>
+          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses ".
+        </p>
+        <span>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </span>
+      </section>
+
+      <section class="witness marvol">
+        <div class="witness-img">
+          <img src="./images/iPad.png" alt="" width="328px" height="322px" />
+        </div>
+        <div class="witness-info">
+          <a href="" class="link">MARVOL</a>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.
+          </p>
+          <a href="#" class="button dos">VER CÓDIGO</a>
+          <a href="#" class="button">VER PROYECTO</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <img src="./images/user2.png" alt="" width="64" />
+        <p>
+          "Jaume ha superado mis expectativas desde el diseño hasta el
+          desarrollo".
+        </p>
+        <span>
+          <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+        </span>
+      </section>
+
+      <section class="witness">
+        <div class="witness-img">
+          <img src="./images/Iphone.png" alt="" width="302px" height="536px" />
+        </div>
+        <div class="witness-info">
+          <a href="" class="link">NETNET</a>
+          <p>
+            Películas y series ilimitadas y mucho más.
+            Disfruta donde quieras. Cancela cuando quieras.
+          </p>
+          <a href="#" class="button dos">VER CÓDIGO</a>
+          <a href="#" class="button">VER PROYECTO</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <img src="./images/user3.png" alt="" width="64" />
+        <p>
+            "Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos"..
+        </p>
+        <span>
+          <p>MARCO CORTEZ / NETNET</p>
+        </span>
+      </section>
+
+      <section class="form-container" id="contact">
+        <h2 class="title">Hablemos</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+        <form action="" method="POST" class="form">
+            <label for="nombre">Nombre Completo</label>
+            <input required name="nombre" type="text" placeholder="Juan" id="nombre">
+            <label for="email">Correo Electrónico</label>
+            <input required name="email" type="email" placeholder="Juan@gmail.com" id="email">
+            <label for="mensaje">Mensaje</label>
+            <textarea required name="mensaje" id="mensaje" cols="30" rows="7"></textarea>
+            <button class="button" type="submit">ENVIAR MENSAJE</button>
+        </form>
+      </section>
+
+      <footer class="footer" >
+        <div class="footer-logo">
+            <img src="./images/LOGOw.svg" alt="" class="logo">
+        </div>
+        <div class="hero-contact">
+                <a class="icon-button" href="tel:3163828612"
+                ><img src="./images/icons/icon-phone.svg" alt="contact phone"
+                /></a>
+                <a class="icon-button" href="email:ksmb295@gmail.com"
+                ><img
+                    src="./images/icons/icon-important_mail.svg"
+                    alt="contact email"
+                /></a>
+                <a class="icon-button" href="#"
+                ><img
+                    src="./images/icons/icon-instagram.svg"
+                    alt="contact social networks"
+                /></a>
+                <a class="icon-button" href="#"
+                ><img
+                    src="./images/icons/icon-twitter_squared.svg"
+                    alt="contact social networks"
+                /></a>
+        </div>
+        <div class="footer-text">
+            <p>
+                Hecho con &#x2661 de Jaume.
+            </p>
+            <p>
+                Copyright 2021 - Todos los derechos reservados.
+            </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

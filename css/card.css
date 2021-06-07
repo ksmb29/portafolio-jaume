@@ -1,0 +1,28 @@
+.card{
+    text-align: center;
+    padding: 30px 0;
+    background:rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 24px;
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-color:rgba(255, 255, 255, 0.3);
+    margin: 40px 0;
+}
+.card img{
+}
+.card p{
+    text-align: left;
+    font: var(--body1);
+}
+.card span p{
+    font: var(--caption);
+}
+
+@media screen and (min-width:768px){
+    .card p{
+        text-align: center;
+    }
+}
+
+

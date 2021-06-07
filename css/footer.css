@@ -1,0 +1,38 @@
+.footer{
+    text-align: center;
+    font: var(--body);
+    color: white;
+    font-weight: 400;
+}
+.footer .hero-contact{
+    justify-content: center;
+    padding: 0;
+}
+.footer .logo{
+    display: none;
+}
+
+
+@media screen and (min-width:768px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block-end: 40px;
+    }
+    .footer .logo{
+        display: block;
+    }
+    .hero-contact{
+        order: 3;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .footer-text{
+        display: flex;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,17 @@
+.comments p{
+    font: var(--headline5);
+    text-align: center;
+}
+.comments span p{
+    font-weight: 700;
+}
+.comments{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+.comments img{
+    align-self: center;
+}

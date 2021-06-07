@@ -1,0 +1,56 @@
+.witness{
+    text-align: center;
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+.witness img{
+    max-inline-size: 100%;
+
+}
+.witness-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.witness .link{
+    align-self: flex-start;
+    padding: 10px;
+    background: var(--color1);
+    color: white;
+    text-decoration: none;
+    font: var(--headline5);
+    font-weight: 700;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    box-shadow: -4px 4px 0 white;
+}
+.witness .button{
+    display: block;
+}
+.dos{
+    border: 2px solid var(--color1);
+    background: none;
+}
+
+@media screen and (min-width:768px){
+    
+    .witness{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 32px;
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+    }
+    .witness-info, .witness-img{
+        flex: 1;
+    }
+    .witness-info p{
+        text-align: left;
+    }
+    .marvol{
+        flex-direction: row;
+    }
+}
